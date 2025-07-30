@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form class="reg-form">
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <h2 class="f-head">registration form</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inst">institute</label>
+                        <br>
+                        <select name="institute" id="inst">
+                            <option selected disabled>select option</option>
+                            <option>Hussainabad Campus (adamjee)</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="course-select">course</label>
+                        <br>
+                        <select name="course" id="course-select">
+                            <option selected disabled>select option</option>
+                            <option>Web & mobile App dev course</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="sel-Time">Your Favourite Time ?</label>
+                        <br>
+                        <select name="Time" id="sel-Time">
+                            <option selected disabled>select timing</option>
+                            <option>module a:every saturday 10am to 2pm</option>
+                            <option>module b:every saturday 2pm to 6pm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="s-name">full name</label>
+                        <br>
+                        <input type="text" id="s-name" required>
+                    </td>
+                    <td>
+                        <label for="p-name">Parents / Guardian Name</label>
+                        <br>
+                        <input type="text" id="p-name" required>
+                    </td>
+                    <td>
+                        <label for="email-add">Email ( Write email carefully )</label>
+                        <br>
+                        <input type="email" id="email-add" placeholder="abc123@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone-no">contact number</label>
+                        <br>
+                        <input type="number" id="phone-no" placeholder="03XXXXXXXXX" required>
+                    </td>
+                    <td>
+                        <label for="c-name">City Name</label>
+                        <br>
+                        <input type="text" id="c-name" placeholder="enter your city name" required>
+                    </td>
+                    <td>
+                        <label for="c-b-no">CNIC / BForm</label>
+                        <br>
+                        <input type="number" id="c-b-no" placeholder="4XXXXXXXXXX" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gen">gender</label>
+                        <br>
+                        <select name="gender" id="gen">
+                            <option selected disabled>select gender</option>
+                            <option>male</option>
+                            <option>female</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="d-f-b">Date of Birth</label>
+                        <br>
+                        <input type="date" id="d-f-b" required>
+                    </td>
+                    <td>
+                        <label for="l-qual">Last Qualification</label>
+                        <br>
+                        <select name="last-qualification" id="l-qual">
+                            <option selected disabled>select option</option>
+                            <option>under matric</option>
+                            <option>matric / o-level</option>
+                            <option>intermediate / a-level</option>
+                            <option>graduate</option>
+                            <option>masters</option>
+                            <option>PHD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="add-td">
+                        <label for="p-add">permanent address</label>
+                        <textarea name="address" id="p-add"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label for="pic" class="pic-h">Passport Size Profile Image (Face Front and Decent picture)</label>
+                        <br>
+                        <input type="file" id="pic" required>
+                    </td>
+                </tr>
+                <tr class="l-row">
+                    <td colspan="3">
+                        <button type="submit" class="sub-btn">submit form</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
